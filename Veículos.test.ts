@@ -1,17 +1,17 @@
 import { filtrarVeiculosPorMarca, somarValoresPorMarca, filtrarVeiculosPorAno } from './veiculo';
 
-describe('Testes para manipulação de veículos', () => {
+describe('Testes para a manipulação dos veículos', () => {
   test('Filtrar veículos por marca', () => {
     const resultado = filtrarVeiculosPorMarca('carros', 'Chevrolet');
     expect(resultado.length).toBe(3);
   });
 
-  test('Somar valores dos veículos por marca', () => {
+  test('Somar valores de veículos pela marca', () => {
     const total = somarValoresPorMarca('carros', 'VolksWagen');
     expect(total).toBe(328000); // soma dos valores dos carros da Volkswagen
   });
 
-  test('Filtrar veículos por ano', () => {
+  test('Filtrar veículos pelo ano', () => {
     const resultado = filtrarVeiculosPorAno('motos', 2020);
     expect(resultado.length).toBe(3);
   });
