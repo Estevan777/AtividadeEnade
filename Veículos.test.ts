@@ -1,4 +1,4 @@
-import { filtrarVeiculosPorMarca, somarValoresPorMarca, filtrarVeiculosPorAno } from './veiculo';
+import { filtrarVeiculosPorMarca, somarValoresPorMarca, filtrarVeiculosPorAno } from './Veículo';
 
 describe('Testes para a manipulação dos veículos', () => {
   test('Filtrar veículos por marca', () => {
