@@ -1,4 +1,4 @@
-const veiculos: Veiculos = require('./veiculos.json');
+const veiculos: Veiculos = require('./Veículos.json');
 
 type Veiculo = {
   id: number;
